@@ -1,4 +1,4 @@
-// Thid is where our code goes
+// This is where our code goes
 
 pragma solidity >=0.7.0 <0.9.0;
 
@@ -13,8 +13,8 @@ pragma solidity >=0.7.0 <0.9.0;
 contract simpleStorage {
     // write all the code inside here - function and its state
     
-    uint storeData = '23'
-    string names 'tom'
-    bool switchON = true
+    uint storeData = 23;
+    string name = 'tom';
+    bool switchON = true;
     
 }
