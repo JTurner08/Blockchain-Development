@@ -13,9 +13,8 @@ pragma solidity >=0.7.0 <0.9.0;
 contract simpleStorage {
     // write all the code inside here - function and its state
     
-    uint storeData 
-    
-    string names 
-    bool switchON
+    uint storeData = '23'
+    string names 'tom'
+    bool switchON = true
     
 }
