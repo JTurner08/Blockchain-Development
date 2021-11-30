@@ -26,5 +26,7 @@ contract will{
 
     address payable[] familyWallets
 
+    mapping(address => uint) inheritance
+
 
 }
