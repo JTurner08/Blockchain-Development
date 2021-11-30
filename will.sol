@@ -18,4 +18,9 @@ contract will{
         _;
     }
     // Create modifier so that we only allocate funds if friend's gramps is deceased
+
+        modifier mustBeDeceased {
+        require(deceased == true);
+        _;
+    }
 }
