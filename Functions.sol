@@ -21,6 +21,8 @@ contract simpleStorage {
 
     // public enables visibility so that we can call this outside of the contract itself.
 
+    // first smart contract!
+
     function set(uint x) public {
         storeData = x;
     }
