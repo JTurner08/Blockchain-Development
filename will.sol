@@ -9,6 +9,7 @@ contract will{
 
     constructor() payable public {
         owner = msg.sender;
-        fortune =msg.value;
+        fortune = msg.value;
+        deceased = false; 
     }
 }
