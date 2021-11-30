@@ -7,4 +7,7 @@ contract will{
     uint fortune;
     bool    deceased;
 
+    constructor() payable public {
+        
+    }
 }
