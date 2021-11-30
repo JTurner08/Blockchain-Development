@@ -19,7 +19,7 @@ contract simpleStorage {
 
     // set and get
 
-    // public enables visibility so that we can call this outside of the contract itself
+    // public enables visibility so that we can call this outside of the contract itself.
 
     function set(uint x) public {
         storeData = x;
