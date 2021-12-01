@@ -23,9 +23,11 @@ contract will{
         require(deceased == true);
         _;
     }
-
+    
+    // list family wallets
     address payable[] familyWallets
 
+    //map through inheritance 
     mapping(address => uint) inheritance
 
 
