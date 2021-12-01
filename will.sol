@@ -48,6 +48,7 @@ contract will{
         }
 
     }
+    // oracle simulated switch
     function deceased() public onlyOwner {
         isDeceased = true;
         payout();
