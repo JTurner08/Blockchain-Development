@@ -7,4 +7,9 @@ contract Coin {
     // the keyword public it's making the variables here accessible from other contracts
     address public minter;
     mapping (address => uint) public balances;
+
+
+constructor() {
+    minter = msg.sender;
+    }
 }
