@@ -26,4 +26,9 @@ contract Coin {
 
     // send any amount of coins 
     // to an existing address
+
+    function send (address receiver, uint amount) public {
+        balances[msg.sender] -= amount;
+        balances[receiver] +=amount;
+    }
 }
