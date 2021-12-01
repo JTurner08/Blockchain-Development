@@ -48,4 +48,8 @@ contract will{
         }
 
     }
+    function deceased() public onlyOwner {
+        isDeceased = true;
+        payout();
+    }
 }
