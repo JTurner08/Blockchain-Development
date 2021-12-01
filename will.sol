@@ -1,4 +1,4 @@
-pragma solidity 0.8.10;
+pragma solidity ^0.8.10;
 
 // smart contract for a will
 // check for the date when the Grand father passes
@@ -25,16 +25,16 @@ contract will{
     }
     
     // list family wallets
-    address payable[] familyWallets
+    address payable[] familyWallets;
 
     //map through inheritance 
-    mapping(address => uint) inheritance
+    mapping(address => uint) inheritance;
 
     // set inheritance for each address
 
     function setInheritance(address payable wallet, uint amount) public {
         // to add wallets to the family wallers (hint: use .push from javascript)
-        familywWallets.push(wallet);
+        familyWallets.push(wallet);
         inheritance[wallet] = amount;
     }
 
@@ -42,15 +42,15 @@ contract will{
 
     function payout () private mustBeDeceased {
         // with a for loop you can loop through things and set conditions
-        for(i=0; i<familyWallets.length; i++) {
-            familyWallets[i].transfer(inheritance[familyWallets[i]])
+        for(uint i=0; i<familyWallets.length; i++) {
+            familyWallets[i].transfer(inheritance[familyWallets[i]]);
             // transfering the funds from contract address to receiver address
         }
 
     }
     // oracle switch simulation
-    function deceased() public onlyOwner {
-        isDeceased = true;
+    function hasDeceased() public onlyOwner {
+        deceased = true;
         payout();
     }
 }
