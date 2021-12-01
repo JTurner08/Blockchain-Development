@@ -9,7 +9,9 @@ contract Coin {
     mapping (address => uint) public balances;
 
 
-constructor() {
-    minter = msg.sender;
+
+    // constructor is only runs when we deploy contract 
+    constructor() {
+        minter = msg.sender;
     }
 }
