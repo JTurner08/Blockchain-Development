@@ -4,5 +4,6 @@ pragma solidity 0.8.10;
 // Anyone can send coins to each other without a need for registering with a username and password,all you need is an Ethereum keypair 
 
 contract Coin {
-    
+    address public minter;
+    mapping (address => uint) public balances;
 }
