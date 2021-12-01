@@ -14,4 +14,11 @@ contract Coin {
     constructor() {
         minter = msg.sender;
     }
+
+    // make new coins and send them to an address
+    // only the owner can send these coins
+    function mint(address receiver, uint amount) public {
+        require(msg.sender == minter);
+        balances[receiver] += amount;
+    }
 }
