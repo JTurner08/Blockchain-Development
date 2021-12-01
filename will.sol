@@ -33,7 +33,7 @@ contract will{
     // set inheritance for each address
 
     function setInheritance(address payable wallet, uint amount) public {
-        
+        // to add wallets to the family wallers (hint: use .push)
     }
 
 
