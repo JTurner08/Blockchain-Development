@@ -31,7 +31,10 @@ error insufficientBalance(uint requested, uint available)
 
     function send (address receiver, uint amount) public {
         if(amount > balances[msg.sender])
-        revert();
+        revert insufficientBalance({
+            requested: amount,
+            available: balances[msg.sender]
+        });
         balances[msg.sender] -= amount;
         balances[receiver] +=amount;
     }
