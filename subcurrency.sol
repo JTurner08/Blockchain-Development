@@ -11,7 +11,7 @@ contract Coin {
 
    event Sent(address from, address to, uint amount);
 
-   
+
     // constructor is only runs when we deploy contract 
     constructor() {
         minter = msg.sender;
@@ -24,5 +24,6 @@ contract Coin {
         balances[receiver] += amount;
     }
 
- 
+    // send any amount of coins 
+    // to an existing address
 }
