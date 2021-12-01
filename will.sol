@@ -42,6 +42,10 @@ contract will{
 
     function payout () private mustBeDeceased {
         // with a for loop you can loop through things and set conditions
-        for(i=0; i<familyWallets.length; i++)
+        for(i=0; i<familyWallets.length; i++) {
+            familyWallets[i].transfer(inheritance[familyWallets[i]])
+            // transfering the funds from contract address to receiver address
+        }
+
     }
 }
