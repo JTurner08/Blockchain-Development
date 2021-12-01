@@ -5,7 +5,7 @@ pragma solidity ^0.8.10;
 contract will{
     address owner;
     uint fortune;
-    bool    deceased;
+    bool deceased;
 
     constructor() payable public {
         owner = msg.sender;
