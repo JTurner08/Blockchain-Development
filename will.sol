@@ -37,7 +37,11 @@ contract will{
         familywWallets.push(wallet);
         inheritance[wallet] = amount;
     }
-    
+
     // Pay each family member based on their waller address 
 
+    function payout () private mustBeDeceased {
+        // with a for loop you can loop through things and set conditions
+        for(i=0; i<familyWallets.length; i++)
+    }
 }
