@@ -8,7 +8,10 @@ contract Coin {
     address public minter;
     mapping (address => uint) public balances;
 
-
+    // Events allow clients to react to specific contract changes you desire
+    /* Event is an inheritable member of a contract. An event is emitted, it stores the arguments passed in transction logs
+       These logs are stored on a blochain and are accesible using address of the contract till the contract is present on the blockchain
+    */
    event Sent(address from, address to, uint amount);
 
 
@@ -26,10 +29,9 @@ contract Coin {
 
     // send any amount of coins 
     // to an existing address
+error insufficientBalance(uint requested, uint available);
 
-error insufficientBalance(uint requested, uint available)
-
-    function send (address receiver, uint amount) public {
+    function send(address receiver, uint amount) public {
         if(amount > balances[msg.sender])
         revert insufficientBalance({
             requested: amount,
@@ -37,5 +39,6 @@ error insufficientBalance(uint requested, uint available)
         });
         balances[msg.sender] -= amount;
         balances[receiver] +=amount;
+        emit Sent(msg.sender, receiver, amount);
     }
 }
