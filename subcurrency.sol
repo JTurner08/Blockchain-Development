@@ -9,7 +9,9 @@ contract Coin {
     mapping (address => uint) public balances;
 
 
+   event Sent(address from, address to, uint amount);
 
+   
     // constructor is only runs when we deploy contract 
     constructor() {
         minter = msg.sender;
@@ -21,4 +23,6 @@ contract Coin {
         require(msg.sender == minter);
         balances[receiver] += amount;
     }
+
+ 
 }
