@@ -30,5 +30,11 @@ contract will{
     //map through inheritance 
     mapping(address => uint) inheritance
 
+    // set inheritance for each address
+
+    function setInheritance(address payable wallet, uint amount) public {
+        
+    }
+
 
 }
