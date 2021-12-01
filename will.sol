@@ -37,6 +37,7 @@ contract will{
         familywWallets.push(wallet);
         inheritance[wallet] = amount;
     }
-
+    
+    // Pay each family member based on their waller address 
 
 }
