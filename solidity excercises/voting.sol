@@ -3,7 +3,8 @@ pragma solidity >=0.7.0 <0.9.0
 contract Ballot{
     // VARIABLES
     strut vote {
-        address voterAddress
+        address voterAddress;
+        bool choice;
     }
     struct voter {
         string voterName;
