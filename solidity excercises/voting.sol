@@ -19,7 +19,7 @@ uint private countResult = 0;
 
 // EVENTS
 
-
+// FUNCTIONS
 
 
 }
