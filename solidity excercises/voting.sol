@@ -15,5 +15,7 @@ contract Ballot{
 
 uint private countResult = 0;
 
+// MODIFIERS
+
 
 }
