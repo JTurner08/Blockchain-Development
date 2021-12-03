@@ -4,5 +4,6 @@ contract Ballot{
     // VARIABLES
     struct voter {
         string voterName;
+        bool voted;
     }
 }
