@@ -16,6 +16,7 @@ contract Ballot{
 uint private countResult = 0;
 uint public finalResult = 0;
 uint public totalVoter = 0;
+uint public totalVote = 0;
 
 // MODIFIERS
 
