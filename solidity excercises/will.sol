@@ -24,7 +24,7 @@ contract will{
         _;
     }
     
-    // list family wallets
+    // list family wallets.
     address payable[] familyWallets;
 
     //map through inheritance 
@@ -38,7 +38,7 @@ contract will{
         inheritance[wallet] = amount;
     }
 
-    // Pay each family member based on their waller address 
+    // Pay each family member based on their waller address.
 
     function payout () private mustBeDeceased {
         // with a for loop you can loop through things and set conditions
