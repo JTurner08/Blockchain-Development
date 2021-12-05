@@ -34,11 +34,15 @@ State public state;
 // EVENTS
 
 // FUNCTIONS
-constructor () {
+constructor(){
 
 }
 
-function startVote () {
+function startVote(){
+
+}
+
+function doVote(){
     
 }
 
