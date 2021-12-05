@@ -95,7 +95,7 @@ function dovote(bool _choice)
         v.voterAddress = msg.sender;
         v.choice = _choice;
         if(_choice) {
-            count
+            countResult
         }
     }
     )
