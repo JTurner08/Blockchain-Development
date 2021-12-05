@@ -38,13 +38,14 @@ constructor(){
 
 }
 
-function startVote(){
+function addVoter(){
 
 }
 
 function doVote(){
-    
+
 }
+
 
 
 }
