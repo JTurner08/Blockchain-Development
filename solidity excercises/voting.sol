@@ -35,6 +35,10 @@ State public state;
 
 // FUNCTIONS
 constructor () {
+
+}
+
+function startVote () {
     
 }
 
