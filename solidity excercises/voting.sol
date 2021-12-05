@@ -59,8 +59,8 @@ constructor(
 
     state = State.Created
 
-
 }
+
 function addVoter(address _voterAddress, string memory _voterName){
     publicinState(state.Created)
     onlyOfficial
@@ -72,6 +72,7 @@ function addVoter(address _voterAddress, string memory _voterName){
     voterRegister[_voterAddress] = v;
     totalVoter++;
 }
+
 function starVote()
     public
     inState(State.Created)
