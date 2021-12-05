@@ -18,6 +18,8 @@ uint public finalResult = 0;
 uint public totalVoter = 0;
 uint public totalVote = 0;
 
+address public ballotOfficialAddress;
+
 // MODIFIERS
 
 // EVENTS
