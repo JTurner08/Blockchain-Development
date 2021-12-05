@@ -81,7 +81,8 @@ function starVote()
     state = State.voting;
 }
 
-function dovote(){
+function dovote(bool _choice){
+    public
 
 }
 
