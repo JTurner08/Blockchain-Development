@@ -92,7 +92,8 @@ function dovote(bool _choice)
     && !voterRegister[msg.sender].voted{
         voterRegister[msg.sender].voted = true;
         vote memory v;
-        v.voterAddress 
+        v.voterAddress = msg.sender;
+        v.choice = _choice
     }
     )
 }
