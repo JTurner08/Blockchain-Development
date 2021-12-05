@@ -77,7 +77,7 @@ function starVote()
     inState(State.Created)
     onlyOfficial
 {
-
+    state 
 }
 
 function dovote(){
