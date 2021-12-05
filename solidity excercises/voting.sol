@@ -87,6 +87,8 @@ function dovote(bool _choice)
     returns (bool voted)
 {
     bool found = false;
+
+    if ()
 }
 
 function endVote(){
