@@ -25,6 +25,8 @@ string public proposal;
 mapping(uint => vote) private votes;
 mapping(address => voter) public voterRegister;
 
+enum State { Created, Voting, Ended }
+
 // MODIFIERS
 
 // EVENTS
