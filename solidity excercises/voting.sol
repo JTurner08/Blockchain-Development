@@ -67,6 +67,7 @@ function addVoter(address _voterAddress, string memory _voterName){
 }
 {
     voter memory v;
+    v.voterName = _voterName;
 }
 function starVote(){
 
