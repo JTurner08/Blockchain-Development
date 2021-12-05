@@ -57,7 +57,7 @@ constructor(
     ballotOfficialName = _ballotOfficialName;
     proposal = _proposal;
 
-    
+    state = State.Created
 
 
 }
