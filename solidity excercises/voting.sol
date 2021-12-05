@@ -83,6 +83,7 @@ function starVote()
 
 function dovote(bool _choice){
     public
+    instate(State.Voting)
 
 }
 
