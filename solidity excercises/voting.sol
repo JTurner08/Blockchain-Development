@@ -81,11 +81,12 @@ function starVote()
     state = State.voting;
 }
 
-function dovote(bool _choice){
+function dovote(bool _choice)
     public
     instate(State.Voting)
     returns (bool voted)
-
+{
+    
 }
 
 function endVote(){
