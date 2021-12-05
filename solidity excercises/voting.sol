@@ -23,6 +23,7 @@ string public ballotOfficialName;
 string public proposal;
 
 mapping(uint => vote) private votes;
+mapping(address => voter) public voterRegister;
 
 // MODIFIERS
 
