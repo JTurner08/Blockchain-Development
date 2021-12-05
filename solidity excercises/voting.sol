@@ -22,7 +22,7 @@ address public ballotOfficialAddress;
 string public ballotOfficialName;
 string public proposal;
 
-
+mapping(uint => vote) private votes;
 
 // MODIFIERS
 
