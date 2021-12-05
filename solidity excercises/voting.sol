@@ -72,7 +72,10 @@ function addVoter(address _voterAddress, string memory _voterName){
     voterRegister[_voterAddress] = v;
     totalVoter++;
 }
-function starVote(){
+function starVote()
+    public
+    inState(State.Created)
+{
 
 }
 
