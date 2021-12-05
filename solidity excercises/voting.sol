@@ -44,10 +44,13 @@ modifier inState(State _state) {
     require(state == _state);
     _;
 }
+
 // EVENTS
 
 // FUNCTIONS
-constructor(){
+constructor(
+    string memory _ballotOfficialAddress,
+){
 
 }
 
