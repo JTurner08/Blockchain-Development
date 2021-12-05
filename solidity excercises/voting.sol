@@ -34,6 +34,9 @@ State public state;
 // EVENTS
 
 // FUNCTIONS
+constructor () {
+    
+}
 
 
 }
