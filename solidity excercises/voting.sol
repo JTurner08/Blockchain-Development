@@ -50,7 +50,9 @@ function dovote(){
 
 }
 
-
+function endVote(){
+    
+}
 
 
 
