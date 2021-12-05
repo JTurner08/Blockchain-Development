@@ -94,7 +94,7 @@ function dovote(bool _choice)
         vote memory v;
         v.voterAddress = msg.sender;
         v.choice = _choice;
-        if(_cho)
+        if(_choi)
     }
     )
 }
