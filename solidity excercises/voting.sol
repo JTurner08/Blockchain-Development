@@ -51,7 +51,8 @@ modifier inState(State _state) {
 constructor(
     string memory _ballotOfficialAddress,
     string memory _proposal 
-){
+)
+{
 
 }
 
