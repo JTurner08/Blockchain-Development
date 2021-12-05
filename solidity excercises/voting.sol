@@ -70,6 +70,7 @@ function addVoter(address _voterAddress, string memory _voterName){
     v.voterName = _voterName;
     v.voted = false;
     voterRegister[_voterAddress] = v;
+    totalVoter++;
 }
 function starVote(){
 
