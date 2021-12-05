@@ -34,6 +34,11 @@ modifier condition(bool _condition) {
     require(_condition);
     _;
 }
+
+modifier onlyOfficial () {
+    require(msg.sender == ballotOfficialAddress);
+    _;
+}
 // EVENTS
 
 // FUNCTIONS
