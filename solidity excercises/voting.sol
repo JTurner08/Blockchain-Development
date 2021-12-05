@@ -42,6 +42,7 @@ modifier onlyOfficial () {
 
 modifier inState(State _state) {
     require(state == _state);
+    _;
 }
 // EVENTS
 
