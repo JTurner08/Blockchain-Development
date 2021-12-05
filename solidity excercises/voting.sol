@@ -53,6 +53,7 @@ constructor(
     string memory _proposal 
 )
 {
+    ballotOfficialAddress = msg.sender
 
 }
 
