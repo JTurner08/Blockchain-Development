@@ -101,7 +101,7 @@ function dovote(bool _choice)
         totalVote++;
         found = true;
     }
-    return 
+    return found;
 }
 
 function endVote(){
