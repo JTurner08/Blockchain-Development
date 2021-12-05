@@ -90,7 +90,7 @@ function dovote(bool _choice)
 
     if (voterRegister[msg.sender].voterName.length != 0
     && !voterRegister[msg.sender].voted{
-        
+        voterRegister[msg.sender].voted
     }
     )
 }
