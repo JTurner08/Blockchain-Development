@@ -39,6 +39,10 @@ modifier onlyOfficial () {
     require(msg.sender == ballotOfficialAddress);
     _;
 }
+
+modifier inState(State _state) {
+    require(state == _state);
+}
 // EVENTS
 
 // FUNCTIONS
