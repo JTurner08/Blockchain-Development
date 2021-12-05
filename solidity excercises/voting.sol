@@ -54,6 +54,8 @@ constructor(
 )
 {
     ballotOfficialAddress = msg.sender;
+    ballotOfficialName = _ballotOfficialName;
+    
 
 }
 
