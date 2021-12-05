@@ -93,7 +93,7 @@ function dovote(bool _choice)
         voterRegister[msg.sender].voted = true;
         vote memory v;
         v.voterAddress = msg.sender;
-        v.choice = _choice
+        v.choice = _choice;
     }
     )
 }
