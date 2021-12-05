@@ -89,7 +89,7 @@ function dovote(bool _choice)
     bool found = false;
 
     if (voterRegister[msg.sender].voterName.length != 0
-    && !voterRegister[msg.sender].voted{
+    && !voterRegister[msg.sender].voted) {
         voterRegister[msg.sender].voted = true;
         vote memory v;
         v.voterAddress = msg.sender;
@@ -98,7 +98,7 @@ function dovote(bool _choice)
             countResult++;
         }
     }
-    )
+    
 }
 
 function endVote(){
