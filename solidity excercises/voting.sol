@@ -30,7 +30,10 @@ enum State { Created, Voting, Ended }
 State public state;
 
 // MODIFIERS
-
+modifier condition(bool _condition) {
+    require(_condition);
+    _;
+}
 // EVENTS
 
 // FUNCTIONS
@@ -51,7 +54,7 @@ function dovote(){
 }
 
 function endVote(){
-    
+
 }
 
 
