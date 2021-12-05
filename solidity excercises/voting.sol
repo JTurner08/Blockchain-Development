@@ -97,6 +97,7 @@ function dovote(bool _choice)
         if(_choice) {
             countResult++;
         }
+        votes
     }
     
 }
