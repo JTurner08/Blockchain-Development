@@ -86,7 +86,7 @@ function dovote(bool _choice)
     instate(State.Voting)
     returns (bool voted)
 {
-    
+    bool found = false
 }
 
 function endVote(){
