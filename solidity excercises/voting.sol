@@ -98,6 +98,7 @@ function dovote(bool _choice)
             countResult++;
         }
         votes[totalVote] = v;
+        totalVote++;
     }
     
 }
