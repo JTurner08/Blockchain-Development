@@ -61,12 +61,13 @@ constructor(
 
 
 }
-
 function addVoter(address _voterAddress, string memory _voterName){
     publicinState(state.Created)
     onlyOfficial
 }
-
+{
+    voter memory v;
+}
 function starVote(){
 
 }
