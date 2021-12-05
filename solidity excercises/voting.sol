@@ -42,9 +42,15 @@ function addVoter(){
 
 }
 
-function doVote(){
+function starVote(){
 
 }
+
+function dovote(){
+
+}
+
+
 
 
 
