@@ -75,6 +75,7 @@ function addVoter(address _voterAddress, string memory _voterName){
 function starVote()
     public
     inState(State.Created)
+    onlyOfficial
 {
 
 }
