@@ -20,6 +20,9 @@ uint public totalVote = 0;
 
 address public ballotOfficialAddress;
 string public ballotOfficialName;
+string public proposal;
+
+
 
 // MODIFIERS
 
