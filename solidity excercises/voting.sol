@@ -88,7 +88,7 @@ function dovote(bool _choice)
 {
     bool found = false;
 
-    if (voterRegister[msg.sender])
+    if (voterRegister[msg.sender].voterName)
 }
 
 function endVote(){
