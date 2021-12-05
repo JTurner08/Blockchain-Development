@@ -99,6 +99,7 @@ function dovote(bool _choice)
         }
         votes[totalVote] = v;
         totalVote++;
+        found = true;
     }
     
 }
