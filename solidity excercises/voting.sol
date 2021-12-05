@@ -27,6 +27,8 @@ mapping(address => voter) public voterRegister;
 
 enum State { Created, Voting, Ended }
 
+State public state;
+
 // MODIFIERS
 
 // EVENTS
