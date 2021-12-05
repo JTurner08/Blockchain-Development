@@ -62,7 +62,7 @@ constructor(
 
 }
 
-function addVoter(){
+function addVoter(address _voterAddress, string memory _voterName){
 
 }
 
