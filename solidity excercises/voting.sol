@@ -104,7 +104,10 @@ function dovote(bool _choice)
     return found;
 }
 
-function endVote(){
+function endVote()
+    public
+    inState(State.Voting)
+{
 
 }
 
