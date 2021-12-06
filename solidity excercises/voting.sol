@@ -107,6 +107,7 @@ function dovote(bool _choice)
 function endVote()
     public
     inState(State.Voting)
+    onlyOfficial
 {
 
 }
