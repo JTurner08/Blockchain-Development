@@ -110,6 +110,7 @@ function endVote()
     onlyOfficial
 {
     state = State.Ended;
+    finalResult
 }
 
 
