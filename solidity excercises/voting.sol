@@ -109,7 +109,7 @@ function endVote()
     inState(State.Voting)
     onlyOfficial
 {
-
+    state = State.Ended;
 }
 
 
