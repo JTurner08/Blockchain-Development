@@ -110,7 +110,7 @@ function endVote()
     onlyOfficial
 {
     state = State.Ended;
-    finalResult
+    finalResult = countResult;
 }
 
 
