@@ -19,3 +19,10 @@ contract LearnEvents {
         address to,
         uint indexed amount 
         );
+
+    function trade(address to, uint amount) external {
+        // now is curent timestamp 
+        // outside consumer can recieve event with web3js 
+        emit NewTrade(block.timestamp, msg.sender, to, amount);
+    }
+}
