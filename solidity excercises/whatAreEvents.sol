@@ -5,3 +5,17 @@
 // events have lower gas cost than  storage 
 
 pragma solidity >= 0.7.0 < 0.9.0;
+
+contract LearnEvents {
+    // two steps - 1. declare event 2. emit event
+    
+    // index keywords help outside consumer filter 
+    // you can only use indexed keyword makes ethereum more expensive to store so you can only use three
+    
+    // camelcase good convention - input field data structure 
+    event NewTrade(
+        uint indexed date,
+        address indexed from, 
+        address to,
+        uint indexed amount 
+        );
