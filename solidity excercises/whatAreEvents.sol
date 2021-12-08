@@ -4,3 +4,4 @@
 // After emitting events you can't read them in the past only for entities outside the of the blockchain - not stored as memory 
 // events have lower gas cost than  storage 
 
+pragma solidity >= 0.7.0 < 0.9.0;
