@@ -11,3 +11,5 @@ contract SimpleStorage {
         return storeData;
     }
 }
+
+// contract has limitations 
