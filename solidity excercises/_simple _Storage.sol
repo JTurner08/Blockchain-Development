@@ -7,5 +7,5 @@ contract SimpleStorage {
         storeData = x;
     }
 
-    function 
+    function get ( public)
 }
