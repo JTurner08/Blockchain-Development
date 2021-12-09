@@ -15,7 +15,7 @@ contract Token {
         return balances [owner];
     }
 
-    function transfer()
+    function transfer(address to, uint value)
 }
 
 
