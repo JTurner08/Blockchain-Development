@@ -1,5 +1,5 @@
 pragma solidity ^0.8.2;
 
 contract Token {
-    
+    uint public totalSupply = 1000
 }
