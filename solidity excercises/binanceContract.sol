@@ -16,6 +16,7 @@ contract Token {
     }
 
     function transfer(address to, uint value) public returns(bool)
+        require(balanceOf())
 }
 
 
