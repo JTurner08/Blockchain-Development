@@ -10,6 +10,8 @@ contract Token {
     constructor() {
         balances[msg.sender] = totalSupply;
     }
+
+    function balanceOf(address owner)
 }
 
 
