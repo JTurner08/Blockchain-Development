@@ -7,7 +7,9 @@ contract Token {
     string public symbol = "TKN';
     uint public decimals = 18;
 
-    constructor() {}
+    constructor() {
+        balances[]
+    }
 }
 
 
