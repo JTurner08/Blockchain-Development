@@ -6,6 +6,8 @@ contract Token {
     string public name = "My Token";
     string public symbol = "TKN';
     uint public decimals = 18;
+
+    constructor() {}
 }
 
 
