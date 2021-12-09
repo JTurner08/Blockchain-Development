@@ -15,4 +15,4 @@ contract SimpleStorage {
 
 // contract has limitations 
 // anyone can set values 
-// must be tested using remix
+// must be tested using remi
