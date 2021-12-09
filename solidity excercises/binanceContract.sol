@@ -7,3 +7,14 @@ contract Token {
     string public symbol = "TKN';
     uint public decimals = 18;
 }
+
+
+
+
+
+
+
+
+
+
+// https://www.youtube.com/watch?v=Q_wK6N9GtS8 tutorial 
