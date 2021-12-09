@@ -8,7 +8,7 @@ contract Token {
     uint public decimals = 18;
 
     constructor() {
-        balances[msg.sender]
+        balances[msg.sender] = totalSupply;
     }
 }
 
