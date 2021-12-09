@@ -11,7 +11,7 @@ contract Token {
         balances[msg.sender] = totalSupply;
     }
 
-    function balanceOf(address owner)
+    function balanceOf(address owner) public view 
 }
 
 
