@@ -24,7 +24,9 @@ contract Token {
         return true;
 }
 
-function approve(address spender, uint value) public returns(bool)
+function approve(address spender, uint value) public returns(bool) {
+    allowance
+}
 
 
 
