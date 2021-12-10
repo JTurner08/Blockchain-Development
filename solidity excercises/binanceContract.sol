@@ -9,6 +9,8 @@ contract Token {
     string public symbol = "TKN';
     uint public decimals = 18;
 
+    event Transfer(address indexed from, address indeced to, uint value);
+
     constructor() {
         balances[msg.sender] = totalSupply;
     }
@@ -25,7 +27,7 @@ contract Token {
 }
 
 function approve(address spender, uint value) public returns(bool) {
-    allowance[msg.sender][spender]
+    allowance[msg.sender][spender] = value;
 }
 
 
