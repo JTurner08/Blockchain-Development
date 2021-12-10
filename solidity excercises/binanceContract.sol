@@ -19,7 +19,7 @@ contract Token {
         require(balanceOf(msg.sender) >=value, 'balance too low');
         balances[to] += value;
         balances[msg.sender] -= value;
-        return true
+        return true;
 }
 
 
