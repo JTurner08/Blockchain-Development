@@ -25,7 +25,7 @@ contract Token {
 }
 
 function approve(address spender, uint value) public returns(bool) {
-    allowance
+    allowance[msg.sender]
 }
 
 
