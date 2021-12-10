@@ -16,8 +16,11 @@ contract Token {
     }
 
     function transfer(address to, uint value) public returns(bool)
-        require(balanceOf())
+        require(balanceOf(msg.sender) >=value, 'balance too low');
+        balances[to] += value;
 }
+
+
 
 
 
