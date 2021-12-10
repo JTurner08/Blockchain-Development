@@ -24,7 +24,7 @@ contract Token {
         return true;
 }
 
-function approve()
+function approve(address spender, uint value) public returns(bool)
 
 
 
