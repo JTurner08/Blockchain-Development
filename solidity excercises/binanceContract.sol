@@ -28,7 +28,7 @@ contract Token {
 
 
 function transferFrom(address from, address to, uint value) public returns(true) {
-    require(balanceOf(from));
+    require(balanceOf(from) >= value, 'balance too low')
 }
 
 function approve(address spender, uint value) public returns(bool) {
