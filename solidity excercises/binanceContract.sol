@@ -32,7 +32,8 @@ function transferFrom(address from, address to, uint value) public returns(bool)
     require(allowance[from][msg.sender] >= value, 'allowance too low');
     balances[to] += value;
     balances[from] -= value;
-    emit Transer(from,)
+    emit Transer(from, to, value);
+    return
 }
 
 function approve(address spender, uint value) public returns(bool) {
