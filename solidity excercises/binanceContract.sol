@@ -27,7 +27,9 @@ contract Token {
 }
 
 
-function transferFrom(address from, address to, uint value) public returns(true)
+function transferFrom(address from, address to, uint value) public returns(true) {
+    return balances [owner];
+}
 function approve(address spender, uint value) public returns(bool) {
     allowance[msg.sender][spender] = value;
 }
