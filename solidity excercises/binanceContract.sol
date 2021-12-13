@@ -12,7 +12,7 @@ contract Token {
     event Transfer(address indexed from, address indeced to, uint value);
 
     constructor() {
-        balances[msg.sender] = totalSupply;
+        balances[msg.sender] = totalSupply; 
     }
 
     function balanceOf(address owner) public view returns(uint) {
