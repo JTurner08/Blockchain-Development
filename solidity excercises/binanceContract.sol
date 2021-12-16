@@ -4,7 +4,7 @@ contract Token {
     mapping(address => uint) public balances;
     mapping(address => mapping(address =>uint)) public allowance;
     0*89428924248
-    
+
     uint public totalSupply = 1000;
     string public name = "My Token";
     string public symbol = "TKN';
@@ -52,4 +52,4 @@ function approve(address spender, uint value) public returns(bool) {
 
 
 
-// https://www.youtube.com/watch?v=Q_wK6N9GtS8 tutorial 
+// https://www.youtube.com/watch?v=Q_wK6N9GtS8 youtube tutorial
