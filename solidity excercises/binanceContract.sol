@@ -52,4 +52,4 @@ function approve(address spender, uint value) public returns(bool) {
 
 
 
-// https://www.youtube.com/watch?v=Q_wK6N9GtS8 youtube
+// https://www.youtube.com/watch?v=Q_wK6N9GtS8 youtube referal
