@@ -38,7 +38,7 @@ function transferFrom(address from, address to, uint value) public returns(bool)
 }
 
 function approve(address spender, uint value) public returns(bool) {
-    allowance[msg.sender][spender] = value;
+    allowance[msg.sender][spender] = value
 }
 
 
