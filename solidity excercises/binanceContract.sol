@@ -34,7 +34,7 @@ function transferFrom(address from, address to, uint value) public returns(bool)
     balances[to] += value;
     balances[from] -= value;
     emit Transer(from, to, value);
-    return true;
+    return true
 }
 
 function approve(address spender, uint value) public returns(bool) {
