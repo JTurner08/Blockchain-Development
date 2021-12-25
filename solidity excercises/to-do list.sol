@@ -9,5 +9,5 @@ contract TodoList {
         bool completed  
     }
 
-    tasks
+    mapping()
 }
