@@ -6,7 +6,7 @@ contract TodoList {
     struct Task {
         uint id;
         string content;
-        bool completed  
+        bool completed;
     }
 
     mapping(uint => Task) public tasks;
@@ -18,7 +18,6 @@ contract TodoList {
     function createTask(string memory _content) public {
         taskCount ++;
         tasks[taskCount] = Task(taskCount, false);
-
 
     }
 }
