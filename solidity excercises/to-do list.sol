@@ -4,6 +4,6 @@ contract TodoList {
     uint public taskCount = 0;
 
     struct Task {
-        
+        uint id;
     }
 }
