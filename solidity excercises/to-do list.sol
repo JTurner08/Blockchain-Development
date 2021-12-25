@@ -11,5 +11,7 @@ contract TodoList {
 
     mapping(uint => Task) public tasks;
 
-    function createTask(string memory _content)
+    function createTask(string memory _content) public {
+        
+    }
 }
