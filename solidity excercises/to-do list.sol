@@ -11,7 +11,11 @@ contract TodoList {
 
     mapping(uint => Task) public tasks;
 
-    event TaskCreated
+    event TaskCreated(
+        uint id,
+        string content,
+        bool completed
+    );
 
     constructor () public {
         createTask("check out udemy.com");
