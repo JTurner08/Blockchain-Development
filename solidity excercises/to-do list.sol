@@ -11,6 +11,8 @@ contract TodoList {
 
     mapping(uint => Task) public tasks;
 
+    event TaskCreated
+
     constructor () public {
         createTask("check out udemy.com");
     }
@@ -22,4 +24,4 @@ contract TodoList {
     }
 }
 
-// https://www.youtube.com/watch?v=coQ5dg8wM2o
+//  https://www.youtube.com/watch?v=coQ5dg8wM2o
