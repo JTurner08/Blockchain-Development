@@ -25,8 +25,8 @@ contract TodoList {
         taskCount ++;
         tasks[taskCount] = Task(taskCount, _content, false);
         emit TaskCreated(taskCount, _content, false);
-
     }
-}
+    
+};
 
 //  https://www.youtube.com/watch?v=coQ5dg8wM2o
