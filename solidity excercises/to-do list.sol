@@ -18,7 +18,7 @@ contract TodoList {
     );
 
     constructor () public {
-        createTask("check out udemy.com");
+        createTask("check this out udemy.com");
     }
 
     function createTask(string memory _content) public {
