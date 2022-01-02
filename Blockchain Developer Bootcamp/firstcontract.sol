@@ -3,5 +3,5 @@
 pragma solidity ^0.8.1;
 
 contract MyContract {
-    string public myString =
+    string public myString = 'hello world';
 }
