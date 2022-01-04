@@ -10,6 +10,12 @@ contract workingWithVariables {
     bool public mybool;
 
     function setMyBool(bool _myBool) public {
-        myBool =
+        myBool = _myBool;
+    }
+
+    uint8 public myUint8;
+
+    function incrementUint() public {
+        myUint8++;
     }
 }
