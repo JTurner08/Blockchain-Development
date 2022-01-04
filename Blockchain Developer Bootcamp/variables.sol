@@ -9,5 +9,5 @@ contract workingWithVariables {
 
     bool public mybool;
 
-    function setMyBool(bool _myBool)
+    function setMyBool(bool _myBool) public
 }
