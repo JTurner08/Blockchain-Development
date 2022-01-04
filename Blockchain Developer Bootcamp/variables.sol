@@ -9,5 +9,5 @@ contract workingWithVariables {
 
     bool public mybool;
 
-    function 
+    function setMyBool
 }
