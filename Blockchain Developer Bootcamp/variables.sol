@@ -7,5 +7,5 @@ contract workingWithVariables {
         myUint = _myUint;
     }
 
-    bool public 
+    bool public mybool
 }
