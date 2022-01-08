@@ -5,7 +5,7 @@ contract StartStopUdateExample {
     address owner;
 
     constructor() public {
-        owner =
+        owner = msg
     }
     function sendMoney() public payable {
 
