@@ -4,7 +4,7 @@ contract StartStopUdateExample {
 
     address owner;
 
-    constructor
+    constructor()
     function sendMoney() public payable {
 
     }
