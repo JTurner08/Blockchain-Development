@@ -11,7 +11,7 @@ contract StartStopUdateExample {
 
     }
 
-    function withdrawAllMoney
+    function withdrawAllMoney()
 
 
 }
