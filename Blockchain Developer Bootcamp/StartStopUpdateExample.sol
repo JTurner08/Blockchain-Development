@@ -11,7 +11,9 @@ contract StartStopUdateExample {
 
     }
 
-    function withdrawAllMoney(address payable _to) public
+    function withdrawAllMoney(address payable _to) public {
+        
+    }
 
 
 }
