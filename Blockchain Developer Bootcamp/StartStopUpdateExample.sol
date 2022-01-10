@@ -12,7 +12,9 @@ contract StartStopUdateExample {
     }
 
     function withdrawAllMoney(address payable _to) public {
-        if(msg.sender ==owner)
+        if(msg.sender == owner) {
+            
+        }
     }
 
 
