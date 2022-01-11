@@ -12,7 +12,7 @@ contract StartStopUdateExample {
     }
 
     function setPaused(bool _paused) public {
-        
+        require
     }
 
     function withdrawAllMoney(address payable _to) public {
