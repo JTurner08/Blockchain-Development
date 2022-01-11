@@ -11,7 +11,7 @@ contract StartStopUdateExample {
 
     }
 
-    function setPaused
+    function setPaused(bool)
 
     function withdrawAllMoney(address payable _to) public {
         require (msg.sender == owner"You are not the owner"); {
