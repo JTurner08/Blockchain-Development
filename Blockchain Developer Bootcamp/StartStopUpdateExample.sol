@@ -17,7 +17,7 @@ contract StartStopUdateExample {
 
     function withdrawAllMoney(address payable _to) public {
         require (msg.sender == owner"You are not the owner"); 
-        require(!Paused,"Contract");
+        require(!Paused,"Contract is");
         _to.transfer(address(this).balance)
         }
     }
