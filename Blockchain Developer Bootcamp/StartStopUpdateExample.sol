@@ -20,5 +20,7 @@ contract StartStopUdateExample {
         require(Paused== false,"Contract is paused");
         _to.transfer(address(this).balance)
         }
-        function destroySmartContract(address payable _to)
+        function destroySmartContract(address payable _to) public {
+            
+        }
     }
