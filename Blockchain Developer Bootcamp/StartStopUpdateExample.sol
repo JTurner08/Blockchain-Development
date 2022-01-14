@@ -21,6 +21,6 @@ contract StartStopUdateExample {
         _to.transfer(address(this).balance)
         }
         function destroySmartContract(address payable _to) public {
-            selfdestruct();
+            selfdestruct(_);
         }
     }
