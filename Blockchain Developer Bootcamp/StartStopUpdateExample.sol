@@ -21,7 +21,7 @@ contract StartStopUdateExample {
         _to.transfer(address(this).balance)
         }
         function destroySmartContract(address payable _to) public {
-            require(msg.sender ==owner,)
+            require(msg.sender ==owner,"")
             selfdestruct(_to);
         }
     }
