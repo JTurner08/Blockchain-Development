@@ -1,6 +1,6 @@
 pragma solidity ^0.6.0;
 
 contract simpleMappingExample {
-    mapping(uint => bool) myMapping;
-    
+    mapping(uint => bool) public myMapping;
+
 }
