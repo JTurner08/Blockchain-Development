@@ -4,6 +4,6 @@ contract simpleMappingExample {
     mapping(uint => bool) public myMapping;
 
     function setValue(uint _index) public{
-        
+    myMapping
     }
 }
