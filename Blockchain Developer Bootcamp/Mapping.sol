@@ -1,7 +1,7 @@
 pragma solidity ^0.6.0;
 
 contract simpleMappingExample {
-    bool myVari = false
+    bool myVari = false;
     mapping(uint => bool) public myMapping;
 
     function setValue(uint _index) public{
