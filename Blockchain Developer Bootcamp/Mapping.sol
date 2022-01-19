@@ -12,5 +12,5 @@ contract simpleMappingExample {
     myMapping[_Index] = true;
     }
 
-    function setMy
+    function setMyVar
 }
