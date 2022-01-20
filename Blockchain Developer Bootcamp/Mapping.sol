@@ -13,6 +13,6 @@ contract simpleMappingExample {
     }
 
     function setMyVar1toTrue() public {
-        myVar1 =
+        myVar1 = true;
     }
 }
