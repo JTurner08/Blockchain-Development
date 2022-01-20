@@ -12,7 +12,7 @@ contract simpleMappingExample {
     myMapping[_Index] = true;
     }
 
-    function setMyAddress
+    function setMyAddressTo
     
     }
 }
