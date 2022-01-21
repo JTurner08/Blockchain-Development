@@ -13,7 +13,7 @@ contract simpleMappingExample {
     }
 
     function setMyAddressToTrue() public {
-        myAddressMapping[msg.sender] =
+        myAddressMapping[msg.sender] = true
     }
     
     }
