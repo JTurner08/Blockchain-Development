@@ -16,5 +16,4 @@ contract simpleMappingExample {
         myAddressMapping[msg.sender] = true;
     }
     
-    }
 }
