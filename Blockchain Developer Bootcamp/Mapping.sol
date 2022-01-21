@@ -13,7 +13,7 @@ contract simpleMappingExample {
     }
 
     function setMyAddressToTrue() public {
-        
+        my
     }
     
     }
