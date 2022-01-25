@@ -4,6 +4,9 @@ contract MappingStructExample {
     mapping(address => uint) public balanceReceived;
 
     function getbalance() public view returns(uint) {
-        return address(this).balance
+        return address(this).balance;
     }
+
+
+    function 
 }
