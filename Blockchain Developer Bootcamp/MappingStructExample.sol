@@ -8,5 +8,5 @@ contract MappingStructExample {
     }
 
 
-    function 
+    function sendMoney
 }
