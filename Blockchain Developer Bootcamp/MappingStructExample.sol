@@ -8,5 +8,7 @@ contract MappingStructExample {
     }
 
 
-    function sendMoney() public payable
+    function sendMoney() public payable {
+        
+    }
 }
