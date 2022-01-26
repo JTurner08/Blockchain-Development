@@ -11,4 +11,6 @@ contract MappingStructExample {
     function sendMoney() public payable {
         balanceReceived [msg.sender] += msg.value;
     }
+
+    function
 }
