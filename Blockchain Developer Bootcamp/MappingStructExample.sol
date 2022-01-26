@@ -12,5 +12,5 @@ contract MappingStructExample {
         balanceReceived [msg.sender] += msg.value;
     }
 
-    function
+    function withdraw
 }
