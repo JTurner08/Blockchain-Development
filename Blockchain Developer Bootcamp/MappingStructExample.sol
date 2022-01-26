@@ -12,5 +12,5 @@ contract MappingStructExample {
         balanceReceived [msg.sender] += msg.value;
     }
 
-    function withdrawAllMoney(address payable _to)
+    function withdrawAllMoney(address payable _to) public
 }
