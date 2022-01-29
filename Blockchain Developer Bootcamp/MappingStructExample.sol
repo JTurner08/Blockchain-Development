@@ -13,7 +13,7 @@ contract MappingStructExample {
     }
 
 
-function withdraw
+function withdrawMoney
 
     function withdrawAllMoney(address payable _to) public {
         uint balanceToSend = balanceReceived[msg.sender];
