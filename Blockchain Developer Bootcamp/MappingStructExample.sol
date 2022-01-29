@@ -12,6 +12,9 @@ contract MappingStructExample {
         balanceReceived [msg.sender] += msg.value;
     }
 
+
+function 
+
     function withdrawAllMoney(address payable _to) public {
         uint balanceToSend = balanceReceived[msg.sender];
         balanceReceived[msg.sender] = 0;
