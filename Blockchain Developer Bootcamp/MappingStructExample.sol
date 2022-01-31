@@ -14,7 +14,7 @@ contract MappingStructExample {
 
 
 function withdrawMoney(address payable _to, uint _amount) public {
-    require(balance)
+    require(balanceReceived)
 }
 
     function withdrawAllMoney(address payable _to) public {
