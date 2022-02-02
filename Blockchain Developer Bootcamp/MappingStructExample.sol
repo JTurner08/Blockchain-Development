@@ -15,7 +15,7 @@ contract MappingStructExample {
 
 function withdrawMoney(address payable _to, uint _amount) public {
     require(balanceReceived)[msg.sender] -= _amount, "not enough funds");
-    balanceReceived[msg.sender] -= _
+    balanceReceived[msg.sender] -= _amount
     
 }
 
