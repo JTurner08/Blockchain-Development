@@ -4,6 +4,7 @@ contract MappingStructExample {
 
     struct Payment {
         uint amount;
+        uint
     }
     
 mapping(address => uint) public balanceReceived;
