@@ -8,7 +8,7 @@ contract MappingStructExample {
     }
 
     struct Balance {
-        
+        uint
     }
     
 mapping(address => uint) public balanceReceived;
