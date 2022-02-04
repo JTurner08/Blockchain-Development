@@ -7,7 +7,7 @@ contract MappingStructExample {
         uint timestamp;
     }
 
-    struct 
+    struct balance
     
 mapping(address => uint) public balanceReceived;
 
