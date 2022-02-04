@@ -2,7 +2,9 @@ pragma solidity ^0.5.13;
 
 contract MappingStructExample {
 
-    struct Payment {}
+    struct Payment {
+        
+    }
     
 mapping(address => uint) public balanceReceived;
 
