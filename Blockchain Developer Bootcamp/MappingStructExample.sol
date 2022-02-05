@@ -10,7 +10,7 @@ contract MappingStructExample {
     struct Balance {
         uint totalBalance;
         uint numPayment;
-        mapping(uint)
+        mapping(uint =>)
     }
     
 mapping(address => uint) public balanceReceived;
