@@ -21,7 +21,7 @@ mapping(address => uint) public balanceReceived;
 
 
     function sendMoney() public payable {
-        balanceReceived [msg.sender]. += msg.value;
+        balanceReceived [msg.sender].total += msg.value;
     }
 
 
