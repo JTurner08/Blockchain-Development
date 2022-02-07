@@ -24,7 +24,7 @@ mapping(address => uint) public balanceReceived;
         balanceReceived [msg.sender].totalBalance += msg.value;
     }
 
-    Payment memory payment = Payment(msg)
+    Payment memory payment = Payment(msg.)
 
 
 function withdrawMoney(address payable _to, uint _amount) public {
