@@ -38,7 +38,7 @@ function withdrawMoney(address payable _to, uint _amount) public {
 }
 
     function withdrawAllMoney(address payable _to) public {
-        uint balanceToSend = balanceReceived[msg.sender];
+        uint balanceToSend = balanceReceived[msg.sender]
         balanceReceived[msg.sender] = 0;
         _to.transfer(balanceToSend);
     }
