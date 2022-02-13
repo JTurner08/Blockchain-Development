@@ -1,3 +1,5 @@
 pragma solidity ^0.5.13;
 
-contract ExceptionExample {}
+contract ExceptionExample {
+    
+}
