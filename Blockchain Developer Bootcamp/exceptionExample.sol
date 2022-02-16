@@ -4,5 +4,5 @@ contract ExceptionExample {
     
 mapping(address => uint) public balanceReceived;
 
-function receivedMoney() public 
+function receivedMoney() public payable
 }
