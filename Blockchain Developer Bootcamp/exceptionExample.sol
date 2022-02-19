@@ -7,4 +7,6 @@ mapping(address => uint) public balanceReceived;
 function receivedMoney() public payable {
     balanceReceived[msg.sender] += msg.value;
     }
+
+    function 
 }
