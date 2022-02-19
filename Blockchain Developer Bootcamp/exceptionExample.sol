@@ -8,5 +8,5 @@ function receivedMoney() public payable {
     balanceReceived[msg.sender] += msg.value;
     }
 
-    function withdraw
+    function withdrawMoney
 }
