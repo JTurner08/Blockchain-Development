@@ -9,7 +9,7 @@ function receivedMoney() public payable {
     }
 
     function withdrawMoney(address payable _to, uint _amount) public {
-        require(_amount <= balanceReceived)[msg.sender],"you" -= _amount;
+        require(_amount <= balanceReceived)[msg.sender],"you don't" -= _amount;
         _to.transfer(_amount)
     }
 }
