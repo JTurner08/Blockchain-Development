@@ -5,7 +5,7 @@ contract ExceptionExample {
 mapping(address => uint) public balanceReceived;
 
 function receivedMoney() public payable {
-    assert(balanceRecived[msg.sender] + uint64)
+    assert(balanceRecived[msg.sender] + uint64())
     balanceReceived[msg.sender] += msg.value;
     }
 
