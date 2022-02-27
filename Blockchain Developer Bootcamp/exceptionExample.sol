@@ -11,6 +11,7 @@ function receivedMoney() public payable {
 
     function withdrawMoney(address payable _to, uint _amount) public {
         require(_amount <= balanceReceived)[msg.sender],"you don't have enough ether!" -= _amount;
+        assert
         _to.transfer(_amount)
     }
 }
