@@ -15,3 +15,5 @@ function receivedMoney() public payable {
         _to.transfer(_amount)
     }
 }
+
+//ex
