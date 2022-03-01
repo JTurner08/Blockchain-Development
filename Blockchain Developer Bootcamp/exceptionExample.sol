@@ -16,4 +16,4 @@ function receivedMoney() public payable {
     }
 }
 
-//Exceptionexample contract ude
+//Exceptionexample contract ud
