@@ -16,4 +16,4 @@ function receivedMoney() public payable {
     }
 }
 
-//Exceptione
+//Exception
