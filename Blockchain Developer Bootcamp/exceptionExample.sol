@@ -16,4 +16,4 @@ function receivedMoney() public payable {
     }
 }
 
-//good to commit to git
+//good to commit to gi
