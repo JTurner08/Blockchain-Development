@@ -16,4 +16,4 @@ function receivedMoney() public payable {
     }
 }
 
-//good to com
+//good to co
