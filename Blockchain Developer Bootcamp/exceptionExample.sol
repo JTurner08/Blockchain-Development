@@ -16,4 +16,4 @@ function receivedMoney() public payable {
     }
 }
 
-//go
+//g
