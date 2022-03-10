@@ -16,4 +16,4 @@ function receivedMoney() public payable {
     }
 }
 
-//Youtube and ud
+//Youtube and u
