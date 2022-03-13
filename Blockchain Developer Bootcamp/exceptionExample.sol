@@ -16,4 +16,4 @@ function receivedMoney() public payable {
     }
 }
 
-//Watch th Youtube 
+//Watch the Youtube 
