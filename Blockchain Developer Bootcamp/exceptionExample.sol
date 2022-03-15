@@ -16,4 +16,4 @@ function receivedMoney() public payable {
     }
 }
 
-//Watch the Youtube on exceptions in Hask
+//Watch the Youtube on exceptions in Has
