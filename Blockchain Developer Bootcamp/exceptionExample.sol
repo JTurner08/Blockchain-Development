@@ -16,4 +16,4 @@ function receivedMoney() public payable {
     }
 }
 
-//Watch the plutus and marlowe tut
+//Watch the plutus and marlowe tu
