@@ -16,4 +16,3 @@ function receivedMoney() public payable {
     }
 }
 
-/
