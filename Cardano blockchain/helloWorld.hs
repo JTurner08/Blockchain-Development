@@ -1,4 +1,4 @@
 main = do
     putstrln "Hello World!"
     putstrln "Hello Anna"
-    putstrln "Hello E"
+    putstrln "Hello El"
