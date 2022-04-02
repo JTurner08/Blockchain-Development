@@ -7,3 +7,4 @@ main = do
     putStrLn(name ++ " was a very spoiled child.")
 
     -- use hyphento comment out code in Haskell
+    -
