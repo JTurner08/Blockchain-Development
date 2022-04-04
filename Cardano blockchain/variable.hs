@@ -6,5 +6,5 @@ main = do
     putStrLn("This is when we knew.")
     putStrLn(name ++ " was a very spoiled child.")
 
-    -- use hyphento comment out code in Haskell
-    -- can make
+    -- use hyphen to comment out code in Haskell
+    -- can make 
