@@ -9,4 +9,4 @@
         putStrLn name
 
     -- use hyphen to comment out code in Haskell
-    -- can make multiple comments using the keyboard shortcut ctr
+    -- can make multiple comments using the keyboard shortcut ct
