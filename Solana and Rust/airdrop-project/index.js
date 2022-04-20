@@ -8,8 +8,9 @@ const {
 
 const wallet = new keyPair()
 
-const PublicKey = wallet._keypair.publickey
+const publickey = wallet._keypair.publickey
 
 const SecretKey = wallet._keypair.SecretKey
 
-console.log(publickey)
+console.log(Publickey)
+console.log(SecretKey)
