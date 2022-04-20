@@ -5,12 +5,11 @@ const {
     Keypair,
     LAMPORTS_PER_SOL
 } = require("@solana/web3.js")
-
+ 
 const wallet = new Keypair()
-
-const publickey = wallet._keypair.publickey
-
-const secretkey = wallet._keypair.secretkey
-
-console.log(publickey)
-console.log(secretkey)
+ 
+const publicKey = wallet._keypair.publicKey
+const secretKey = wallet._keypair.secretKey
+ 
+console.log(publicKey)
+console.log(secretKey)
