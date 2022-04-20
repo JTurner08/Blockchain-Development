@@ -10,7 +10,7 @@ const wallet = new keyPair()
 
 const publickey = wallet._keypair.publickey
 
-const SecretKey = wallet._keypair.SecretKey
+const secretKey = wallet._keypair.SecretKey
 
-console.log(Publickey)
-console.log(SecretKey)
+console.log(publickey)
+console.log(secretKey)
