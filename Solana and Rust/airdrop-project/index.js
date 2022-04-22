@@ -1,7 +1,7 @@
 const {
     Connection,
     PublicKey,
-    clust,
+    clus,
     Keypair,
     LAMPORTS_PER_SOL,
 } = require("@solana/web3.js")
