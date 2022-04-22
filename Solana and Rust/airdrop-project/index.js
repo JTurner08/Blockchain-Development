@@ -1,5 +1,5 @@
 const {
-    Connec,
+    Conne,
     PublicKey,
     clusterApiUrl,
     Keypair,
