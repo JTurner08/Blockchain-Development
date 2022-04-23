@@ -23,7 +23,7 @@ const getWalletBalance = async() => {
 const airDropSol = async() => {
     try {
         const connection = new Connection(clusterApiUrl('devnet'), 'confirmed')
-        const fromAirDropSignature = await connection.requestAirdrop()
+        const fromAirDropSignature = await connection.requestAirdrop
     }catch(err) {
         console.log(err)
     }
