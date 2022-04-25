@@ -8,7 +8,7 @@ const {
  
 const wallet = new Keypair()
  
-const publicKey = new PublicKey(wallet._keypair.publi
+const publicKey = new PublicKey(wallet._keypair.publ
 const secretKey = wallet._keypair.secretKey
  
 const getWalletBalance = async() => {
