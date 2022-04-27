@@ -32,3 +32,4 @@ const main = async() => {
     await getWalletBalance()
 }
 main()
+// c
