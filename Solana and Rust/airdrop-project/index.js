@@ -32,4 +32,4 @@ const main = async() => {
     await getWalletBalance()
 }
 main()
-// comment often and take notes oft
+// comment often and take notes ofte
