@@ -32,4 +32,4 @@ const main = async() => {
     await getWalletBalance()
 }
 main()
-// comment often and take notes often to learn rust pro
+// comment often and take notes often to learn rust prog
