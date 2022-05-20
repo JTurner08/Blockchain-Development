@@ -32,4 +32,4 @@ const main = async() => {
     await getWalletBalance()
 }
 main()
-// line 23 is for the try/catch me
+// line 23 is for the try/catch met
