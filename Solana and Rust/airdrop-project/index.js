@@ -32,4 +32,4 @@ const main = async() => {
     await getWalletBalance()
 }
 main()
-// Use the try catch function t
+// Use the try catch function 
